@@ -18,10 +18,10 @@ Sur GitHub, chaque bloc peut rester dans un dépôt séparé. Cela évite d'avoi
 
 | Dépôt | Rôle | Description |
 | --- | --- | --- |
-| HomeLab | Infrastructure parent | pfSense, VLAN, WireGuard, CrowdSec, approche SOC/Blue Team |
-| HackEth | Sous-projet vitrine | Point d'entrée du poste Kali dans l'écosystème HomeLab |
-| HackEth-Bootstrap | Automatisation | Scripts permettant de reconstruire le poste Kali |
-| HackEth-Golden-Image | Sauvegarde et reprise | Documentation Clonezilla, intégrité et restauration |
+| [HomeLab](https://github.com/Mounir78190/HomeLab) | Infrastructure parent | pfSense, VLAN, WireGuard, CrowdSec, approche SOC/Blue Team |
+| [HackEth](https://github.com/Mounir78190/HackEth) | Sous-projet vitrine | Point d'entrée du poste Kali dans l'écosystème HomeLab |
+| [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Automatisation | Scripts permettant de reconstruire le poste Kali |
+| [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Sauvegarde et reprise | Documentation Clonezilla, intégrité et restauration |
 
 ## HomeLab
 

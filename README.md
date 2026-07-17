@@ -60,8 +60,8 @@ HomeLab
 | --- | --- | --- |
 | [HomeLab](https://github.com/Mounir78190/HomeLab) | Existant | Infrastructure réseau, VLAN, pfSense, WireGuard, CrowdSec |
 | HackEth | En cours | Dépôt vitrine du poste Kali et point d'entrée du sous-projet |
-| HackEth-Bootstrap | Prévu | Automatisation de la reconstruction du poste Kali |
-| HackEth-Golden-Image | Prévu | Documentation de sauvegarde/restauration Clonezilla |
+| [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Initialisé | Automatisation de la reconstruction du poste Kali |
+| [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Initialisé | Documentation de sauvegarde/restauration Clonezilla |
 
 ## Architecture cible
 
@@ -129,9 +129,9 @@ Prochaines étapes :
 
 - Finaliser la documentation du dépôt HackEth.
 - Ajouter des captures anonymisées.
-- Créer le dépôt HackEth-Bootstrap.
-- Créer le dépôt HackEth-Golden-Image.
-- Documenter la Golden Image Clonezilla validée.
+- Enrichir le dépôt HackEth-Bootstrap après tests sur Kali.
+- Enrichir le dépôt HackEth-Golden-Image avec les métadonnées de l'image validée.
+- Ajouter les screenshots utiles dans les trois dépôts.
 - Rédiger ensuite une version anglaise traduite et corrigée.
 
 ## Auteur

@@ -2,7 +2,7 @@
 
 ## Phase 1 - Dépôt vitrine HackEth
 
-Statut : en cours
+Statut : initialisé
 
 - Créer la structure du dépôt HackEth.
 - Rédiger la documentation en français.
@@ -14,25 +14,26 @@ Statut : en cours
 
 ## Phase 2 - HackEth-Golden-Image
 
-Statut : prévu
+Statut : initialisé
 
-- Documenter la Golden Image Clonezilla validée.
-- Ajouter les métadonnées de l'image.
-- Ajouter la procédure de checksum SHA-256.
-- Ajouter la procédure de restauration.
-- Ajouter les notes de dépannage.
-- Documenter le stockage externe sans publier l'image dans GitHub.
+- Dépôt créé : [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image).
+- Documentation initiale créée.
+- Procédures de création, restauration et intégrité initialisées.
+- Scripts SHA-256 ajoutés.
+- À compléter avec les métadonnées de l'image validée.
+- À compléter avec les captures anonymisées.
 
 ## Phase 3 - HackEth-Bootstrap
 
-Statut : prévu
+Statut : initialisé
 
-- Créer `bootstrap.sh`.
-- Ajouter les modules d'installation des outils.
-- Ajouter la configuration ZSH et les alias.
-- Ajouter l'installation Docker.
-- Ajouter l'installation des wordlists.
-- Supporter les déploiements physiques et VM.
+- Dépôt créé : [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap).
+- Script `bootstrap.sh` initialisé.
+- Modules d'installation ajoutés.
+- Configuration ZSH et alias initialisés.
+- Installation Docker documentée et scriptée.
+- Wordlists intégrées dans la première version.
+- À tester sur Kali physique et VM.
 
 ## Phase 4 - Valorisation technique
 
