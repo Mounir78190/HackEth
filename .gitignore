@@ -1,0 +1,27 @@
+# Local files
+.env
+*.local
+*.log
+
+# Large disk images and archives
+*.img
+*.iso
+*.qcow2
+*.vdi
+*.vmdk
+*.ova
+*.7z
+*.zip
+*.tar
+*.tar.gz
+
+# Sensitive exports
+*pfsense*.xml
+*wireguard*.conf
+*wg*.conf
+id_rsa*
+id_ed25519*
+
+# OS files
+.DS_Store
+Thumbs.db

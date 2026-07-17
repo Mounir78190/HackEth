@@ -1,0 +1,41 @@
+flowchart TD
+    Internet[Internet]
+    Router[Routeur domestique / Accès WAN]
+    PfSense[pfSense Firewall]
+    Switch[Switch managé 802.1Q]
+
+    VLAN10[VLAN 10 - ADMIN]
+    VLAN20[VLAN 20 - DEV]
+    VLAN30[VLAN 30 - HACKETH]
+
+    Admin[Administration / Supervision]
+    Dev[Environnement DEV]
+    HackEth[Poste Kali Linux / HackEth]
+
+    Bootstrap[HackEth-Bootstrap]
+    Golden[HackEth-Golden-Image]
+    HomeLab[HomeLab]
+
+    Internet --> Router
+    Router --> PfSense
+    PfSense --> Switch
+    Switch --> VLAN10
+    Switch --> VLAN20
+    Switch --> VLAN30
+
+    VLAN10 --> Admin
+    VLAN20 --> Dev
+    VLAN30 --> HackEth
+
+    HomeLab --> PfSense
+    HomeLab --> VLAN10
+    HomeLab --> VLAN20
+    HomeLab --> VLAN30
+
+    HackEth --> Bootstrap
+    HackEth --> Golden
+
+    PfSense -. Filtrage inter-VLAN .-> VLAN10
+    PfSense -. Filtrage inter-VLAN .-> VLAN20
+    PfSense -. Filtrage inter-VLAN .-> VLAN30
+    PfSense -. Logs / détection .-> HomeLab
