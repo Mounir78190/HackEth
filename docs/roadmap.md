@@ -11,6 +11,7 @@ Statut : initialisé
 - Définir l'architecture de l'écosystème.
 - Ajouter un schéma d'architecture.
 - Ajouter des captures anonymisées.
+- Documenter iVentoy comme composant de boot réseau.
 
 ## Phase 2 - HackEth-Golden-Image
 
@@ -41,6 +42,7 @@ Statut : prévu
 
 - Ajouter des schémas d'architecture propres.
 - Ajouter des captures anonymisées.
+- Ajouter une section détaillée sur iVentoy si le service est stabilisé.
 - Ajouter un scénario de démonstration.
 - Ajouter une synthèse technique claire et accessible.
 - Préparer la traduction anglaise.

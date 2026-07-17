@@ -13,9 +13,11 @@ HomeLab
 |
 |-- VLAN 10 - ADMIN
 |-- VLAN 20 - DEV
-`-- VLAN 30 - HACKETH
-     |
-     `-- Kali Linux / HackEth
+|-- VLAN 30 - HACKETH
+|    |
+|    `-- Kali Linux / HackEth
+|
+`-- iVentoy / boot réseau PXE
 ```
 
 ## Architecture réseau
@@ -31,9 +33,11 @@ Switch managé
    |
    |-- VLAN 10 ADMIN
    |-- VLAN 20 DEV
-   `-- VLAN 30 HACKETH
-        |
-        `-- Kali Linux / HackEth
+   |-- VLAN 30 HACKETH
+   |    |
+   |    `-- Kali Linux / HackEth
+   |
+   `-- Service iVentoy / ISO réseau
 ```
 
 Le schéma Mermaid associé est disponible dans : [`diagrams/architecture.mmd`](../diagrams/architecture.mmd).
@@ -44,7 +48,20 @@ Le schéma Mermaid associé est disponible dans : [`diagrams/architecture.mmd`](
 - Le VLAN 30 est dédié au poste HackEth.
 - WireGuard sécurise l'accès distant d'administration.
 - CrowdSec et les logs pfSense participent à la détection et à l'analyse.
+- iVentoy facilite le démarrage réseau de Clonezilla, Kali ou d'autres ISO utiles au laboratoire.
 - Les simulations offensives restent limitées à l'environnement de laboratoire.
+
+## Déploiement avec iVentoy
+
+iVentoy est utilisé comme composant de boot réseau PXE dans le HomeLab.
+
+Il permet de :
+
+- démarrer Clonezilla Live sans clé USB ;
+- lancer une ISO Kali Linux pour installation ou maintenance ;
+- faciliter la restauration de la Golden Image HackEth ;
+- centraliser les ISO utiles au laboratoire ;
+- accélérer les opérations de reconstruction ou de dépannage.
 
 ## Cibles de déploiement
 

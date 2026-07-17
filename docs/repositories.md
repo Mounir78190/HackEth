@@ -9,7 +9,8 @@ HomeLab
 |
 `-- HackEth
     |-- HackEth-Bootstrap
-    `-- HackEth-Golden-Image
+    |-- HackEth-Golden-Image
+    `-- iVentoy / boot réseau PXE
 ```
 
 Sur GitHub, chaque bloc peut rester dans un dépôt séparé. Cela évite d'avoir un dépôt trop lourd et permet de présenter chaque compétence clairement.
@@ -22,6 +23,7 @@ Sur GitHub, chaque bloc peut rester dans un dépôt séparé. Cela évite d'avoi
 | [HackEth](https://github.com/Mounir78190/HackEth) | Sous-projet vitrine | Point d'entrée du poste Kali dans l'écosystème HomeLab |
 | [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Automatisation | Scripts permettant de reconstruire le poste Kali |
 | [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Sauvegarde et reprise | Documentation Clonezilla, intégrité et restauration |
+| iVentoy | Déploiement réseau | Boot PXE pour lancer Clonezilla, Kali ou d'autres ISO du lab |
 
 ## HomeLab
 
@@ -29,6 +31,7 @@ Rôle :
 
 - Porter l'infrastructure réseau globale.
 - Documenter pfSense, VLAN, WireGuard et CrowdSec.
+- Documenter iVentoy comme composant de boot réseau.
 - Servir de base aux scénarios offensifs et défensifs.
 
 ## HackEth
@@ -58,3 +61,13 @@ Rôle :
 - Stocker les checksums et métadonnées.
 - Indiquer l'emplacement externe de l'image.
 - Éviter de publier une image disque lourde ou sensible dans GitHub.
+
+## iVentoy
+
+Rôle :
+
+- Fournir un boot réseau PXE dans le HomeLab.
+- Démarrer Clonezilla Live sans clé USB.
+- Démarrer une ISO Kali Linux pour installation ou maintenance.
+- Centraliser les ISO utiles au laboratoire.
+- Faciliter les opérations de restauration et de reconstruction.

@@ -31,6 +31,7 @@ HomeLab
 |   |-- Segmentation VLAN
 |   |-- WireGuard VPN
 |   |-- Détection CrowdSec
+|   |-- iVentoy / boot réseau PXE
 |   `-- Approche SOC / Blue Team
 |
 `-- HackEth
@@ -54,6 +55,8 @@ HomeLab
         `-- Plan de reprise
 ```
 
+iVentoy est documenté comme composant de déploiement du HomeLab. Il peut servir à démarrer Clonezilla ou Kali par le réseau, sans dépendre systématiquement d'une clé USB.
+
 ## Dépôts liés
 
 | Dépôt | Statut | Rôle |
@@ -62,6 +65,7 @@ HomeLab
 | HackEth | En cours | Dépôt vitrine du poste Kali et point d'entrée du sous-projet |
 | [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Initialisé | Automatisation de la reconstruction du poste Kali |
 | [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Initialisé | Documentation de sauvegarde/restauration Clonezilla |
+| iVentoy | À documenter | Boot réseau PXE pour lancer Kali, Clonezilla ou d'autres ISO du lab |
 
 ## Architecture cible
 
@@ -103,6 +107,18 @@ Périmètre initial pour HackEth-Bootstrap :
 - ZSH
 - Wordlists
 - Scripts et alias personnalisés
+
+## Déploiement réseau
+
+iVentoy est prévu comme composant de boot réseau dans le HomeLab.
+
+Usages envisagés :
+
+- démarrer Clonezilla Live par PXE ;
+- démarrer une ISO Kali Linux ;
+- faciliter les restaurations de la Golden Image ;
+- limiter la dépendance aux clés USB ;
+- centraliser les ISO utiles au laboratoire.
 
 ## Documentation
 
