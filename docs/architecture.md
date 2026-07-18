@@ -63,6 +63,8 @@ Il permet de :
 - centraliser les ISO utiles au laboratoire ;
 - accélérer les opérations de reconstruction ou de dépannage.
 
+La documentation détaillée est disponible ici : [iVentoy](iventoy.md).
+
 ## Cibles de déploiement
 
 ### Poste physique

@@ -65,7 +65,7 @@ iVentoy est documenté comme composant de déploiement du HomeLab. Il peut servi
 | HackEth | En cours | Dépôt vitrine du poste Kali et point d'entrée du sous-projet |
 | [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Validé sur Kali physique | Automatisation de la reconstruction du poste Kali |
 | [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Validé sur poste physique | Documentation de sauvegarde/restauration Clonezilla |
-| iVentoy | À documenter | Boot réseau PXE pour lancer Kali, Clonezilla ou d'autres ISO du lab |
+| [iVentoy](docs/iventoy.md) | Documenté | Boot réseau PXE pour lancer Kali, Clonezilla ou d'autres ISO du lab |
 
 ## Architecture cible
 
@@ -120,18 +120,21 @@ Usages envisagés :
 - limiter la dépendance aux clés USB ;
 - centraliser les ISO utiles au laboratoire.
 
+Voir la documentation détaillée : [iVentoy](docs/iventoy.md).
+
 ## Documentation
 
 - [Architecture](docs/architecture.md)
 - [Structure des dépôts](docs/repositories.md)
 - [Roadmap](docs/roadmap.md)
+- [iVentoy](docs/iventoy.md)
 - [Notes de sécurité](docs/security.md)
 - [Captures d'écran](docs/screenshots.md)
 - [Publication GitHub](docs/publishing.md)
 
 ## Version
 
-Version actuelle : `0.1.0`
+Version actuelle : `0.2.0`
 
 - [Changelog](CHANGELOG.md)
 - [Licence](LICENSE)
@@ -146,7 +149,7 @@ Prochaines étapes :
 - Finaliser la documentation du dépôt HackEth.
 - Ajouter des captures anonymisées.
 - Tester HackEth-Bootstrap sur Kali VM.
-- Détailler iVentoy comme composant de boot réseau.
+- Tester iVentoy avec une ISO Kali.
 - Ajouter les screenshots utiles dans les trois dépôts.
 - Rédiger ensuite une version anglaise traduite et corrigée.
 

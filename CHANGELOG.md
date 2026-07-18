@@ -4,6 +4,19 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 
 Le format s'inspire de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), avec une gestion de version simple adaptée au projet.
 
+## [0.2.0] - 2026-07-18
+
+### Ajouté
+
+- Documentation détaillée du composant iVentoy.
+- Description du rôle iVentoy dans le boot PXE HomeLab.
+- Cas d'usage : Clonezilla, Kali Linux, maintenance.
+- Prérequis réseau, sécurité et validation actuelle.
+
+### Modifié
+
+- iVentoy passe de `À documenter` à `Documenté` dans le dépôt vitrine.
+
 ## [0.1.0] - 2026-07-17
 
 ### Ajouté

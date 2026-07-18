@@ -45,7 +45,8 @@ Statut : prévu
 
 - Ajouter des schémas d'architecture propres.
 - Ajouter des captures anonymisées.
-- Ajouter une section détaillée sur iVentoy si le service est stabilisé.
+- Tester iVentoy avec une ISO Kali.
+- Ajouter une procédure pas à pas iVentoy si nécessaire.
 - Ajouter un scénario de démonstration.
 - Ajouter une synthèse technique claire et accessible.
 - Préparer la traduction anglaise.

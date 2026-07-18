@@ -23,7 +23,7 @@ Sur GitHub, chaque bloc peut rester dans un dépôt séparé. Cela évite d'avoi
 | [HackEth](https://github.com/Mounir78190/HackEth) | Sous-projet vitrine | Point d'entrée du poste Kali dans l'écosystème HomeLab |
 | [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Automatisation | Scripts permettant de reconstruire le poste Kali |
 | [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Sauvegarde et reprise | Golden Image Clonezilla validée sur poste physique |
-| iVentoy | Déploiement réseau | Boot PXE pour lancer Clonezilla, Kali ou d'autres ISO du lab |
+| [iVentoy](iventoy.md) | Déploiement réseau | Boot PXE pour lancer Clonezilla, Kali ou d'autres ISO du lab |
 
 ## HomeLab
 
@@ -73,3 +73,5 @@ Rôle :
 - Démarrer une ISO Kali Linux pour installation ou maintenance.
 - Centraliser les ISO utiles au laboratoire.
 - Faciliter les opérations de restauration et de reconstruction.
+
+Documentation détaillée : [iVentoy](iventoy.md).
