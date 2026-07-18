@@ -20,6 +20,24 @@ Les captures d'écran servent à illustrer le projet sans exposer d'informations
 - Exemple de détection CrowdSec ou logs pfSense anonymisés.
 - Capture du poste Kali HackEth après configuration.
 
+## Captures déjà disponibles
+
+Les captures détaillées de restauration, iVentoy et validation post-restauration sont publiées dans le dépôt `HackEth-Golden-Image`.
+
+Inventaire détaillé :
+
+```text
+https://github.com/Mounir78190/HackEth-Golden-Image/blob/main/docs/screenshots.md
+```
+
+Captures principales disponibles :
+
+- iVentoy avec ISO Clonezilla.
+- Sélection du mode Clonezilla.
+- Progression Partclone.
+- Premier démarrage après restauration.
+- Vérifications post-restauration.
+
 ## Organisation proposée
 
 ```text

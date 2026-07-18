@@ -4,7 +4,7 @@
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-red)](#)
 [![HomeLab](https://img.shields.io/badge/HomeLab-pfSense-orange)](https://github.com/Mounir78190/HomeLab)
 [![Statut](https://img.shields.io/badge/statut-initialis%C3%A9-blue)](#)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.2.1-blue)](VERSION)
 [![Licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
 HackEth est le dépôt vitrine de mon poste de travail cybersécurité basé sur Kali Linux.
@@ -134,7 +134,7 @@ Voir la documentation détaillée : [iVentoy](docs/iventoy.md).
 
 ## Version
 
-Version actuelle : `0.2.0`
+Version actuelle : `0.2.1`
 
 - [Changelog](CHANGELOG.md)
 - [Licence](LICENSE)

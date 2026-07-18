@@ -4,6 +4,13 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 
 Le format s'inspire de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), avec une gestion de version simple adaptée au projet.
 
+## [0.2.1] - 2026-07-18
+
+### Ajouté
+
+- Lien vers l'inventaire détaillé des captures publié dans HackEth-Golden-Image.
+- Synthèse des captures disponibles : iVentoy, Clonezilla, Partclone et validation post-restauration.
+
 ## [0.2.0] - 2026-07-18
 
 ### Ajouté
