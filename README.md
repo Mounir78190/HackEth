@@ -3,7 +3,7 @@
 [![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue)](https://www.kali.org/)
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-red)](#)
 [![HomeLab](https://img.shields.io/badge/HomeLab-pfSense-orange)](https://github.com/Mounir78190/HomeLab)
-[![Statut](https://img.shields.io/badge/statut-en%20construction-yellow)](#)
+[![Statut](https://img.shields.io/badge/statut-initialis%C3%A9-blue)](#)
 [![Version](https://img.shields.io/badge/version-0.1.0-blue)](VERSION)
 [![Licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
@@ -63,7 +63,7 @@ iVentoy est documenté comme composant de déploiement du HomeLab. Il peut servi
 | --- | --- | --- |
 | [HomeLab](https://github.com/Mounir78190/HomeLab) | Existant | Infrastructure réseau, VLAN, pfSense, WireGuard, CrowdSec |
 | HackEth | En cours | Dépôt vitrine du poste Kali et point d'entrée du sous-projet |
-| [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Initialisé | Automatisation de la reconstruction du poste Kali |
+| [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Validé sur Kali physique | Automatisation de la reconstruction du poste Kali |
 | [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Initialisé | Documentation de sauvegarde/restauration Clonezilla |
 | iVentoy | À documenter | Boot réseau PXE pour lancer Kali, Clonezilla ou d'autres ISO du lab |
 
@@ -139,13 +139,13 @@ Version actuelle : `0.1.0`
 
 ## Statut du projet
 
-Phase actuelle : conception du dépôt vitrine HackEth.
+Phase actuelle : écosystème initialisé avec Bootstrap validé sur Kali physique.
 
 Prochaines étapes :
 
 - Finaliser la documentation du dépôt HackEth.
 - Ajouter des captures anonymisées.
-- Enrichir le dépôt HackEth-Bootstrap après tests sur Kali.
+- Tester HackEth-Bootstrap sur Kali VM.
 - Enrichir le dépôt HackEth-Golden-Image avec les métadonnées de l'image validée.
 - Ajouter les screenshots utiles dans les trois dépôts.
 - Rédiger ensuite une version anglaise traduite et corrigée.

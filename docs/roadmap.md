@@ -26,7 +26,7 @@ Statut : initialisé
 
 ## Phase 3 - HackEth-Bootstrap
 
-Statut : initialisé
+Statut : validé sur Kali physique
 
 - Dépôt créé : [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap).
 - Script `bootstrap.sh` initialisé.
@@ -34,7 +34,9 @@ Statut : initialisé
 - Configuration ZSH et alias initialisés.
 - Installation Docker documentée et scriptée.
 - Wordlists intégrées dans la première version.
-- À tester sur Kali physique et VM.
+- Dry-run validé sur Kali physique.
+- Installation réelle validée sur Kali physique.
+- À tester sur Kali VM.
 
 ## Phase 4 - Valorisation technique
 
