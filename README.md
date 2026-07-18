@@ -64,7 +64,7 @@ iVentoy est documenté comme composant de déploiement du HomeLab. Il peut servi
 | [HomeLab](https://github.com/Mounir78190/HomeLab) | Existant | Infrastructure réseau, VLAN, pfSense, WireGuard, CrowdSec |
 | HackEth | En cours | Dépôt vitrine du poste Kali et point d'entrée du sous-projet |
 | [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Validé sur Kali physique | Automatisation de la reconstruction du poste Kali |
-| [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Initialisé | Documentation de sauvegarde/restauration Clonezilla |
+| [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Validé sur poste physique | Documentation de sauvegarde/restauration Clonezilla |
 | iVentoy | À documenter | Boot réseau PXE pour lancer Kali, Clonezilla ou d'autres ISO du lab |
 
 ## Architecture cible
@@ -139,14 +139,14 @@ Version actuelle : `0.1.0`
 
 ## Statut du projet
 
-Phase actuelle : écosystème initialisé avec Bootstrap validé sur Kali physique.
+Phase actuelle : écosystème initialisé avec Bootstrap et Golden Image validés sur poste physique.
 
 Prochaines étapes :
 
 - Finaliser la documentation du dépôt HackEth.
 - Ajouter des captures anonymisées.
 - Tester HackEth-Bootstrap sur Kali VM.
-- Enrichir le dépôt HackEth-Golden-Image avec les métadonnées de l'image validée.
+- Détailler iVentoy comme composant de boot réseau.
 - Ajouter les screenshots utiles dans les trois dépôts.
 - Rédiger ensuite une version anglaise traduite et corrigée.
 

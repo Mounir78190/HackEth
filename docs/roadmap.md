@@ -15,14 +15,15 @@ Statut : initialisé
 
 ## Phase 2 - HackEth-Golden-Image
 
-Statut : initialisé
+Statut : validé sur poste physique
 
 - Dépôt créé : [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image).
 - Documentation initiale créée.
 - Procédures de création, restauration et intégrité initialisées.
 - Scripts SHA-256 ajoutés.
-- À compléter avec les métadonnées de l'image validée.
-- À compléter avec les captures anonymisées.
+- Métadonnées de l'image validée ajoutées.
+- Restauration validée sur poste physique.
+- Captures de restauration et validation post-restauration ajoutées.
 
 ## Phase 3 - HackEth-Bootstrap
 

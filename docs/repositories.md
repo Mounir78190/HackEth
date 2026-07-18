@@ -22,7 +22,7 @@ Sur GitHub, chaque bloc peut rester dans un dépôt séparé. Cela évite d'avoi
 | [HomeLab](https://github.com/Mounir78190/HomeLab) | Infrastructure parent | pfSense, VLAN, WireGuard, CrowdSec, approche SOC/Blue Team |
 | [HackEth](https://github.com/Mounir78190/HackEth) | Sous-projet vitrine | Point d'entrée du poste Kali dans l'écosystème HomeLab |
 | [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Automatisation | Scripts permettant de reconstruire le poste Kali |
-| [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Sauvegarde et reprise | Documentation Clonezilla, intégrité et restauration |
+| [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Sauvegarde et reprise | Golden Image Clonezilla validée sur poste physique |
 | iVentoy | Déploiement réseau | Boot PXE pour lancer Clonezilla, Kali ou d'autres ISO du lab |
 
 ## HomeLab
@@ -59,6 +59,8 @@ Rôle :
 - Documenter la création de l'image Clonezilla validée.
 - Documenter la restauration.
 - Stocker les checksums et métadonnées.
+- Publier les métadonnées non sensibles de l'image validée.
+- Documenter la validation post-restauration sur poste physique.
 - Indiquer l'emplacement externe de l'image.
 - Éviter de publier une image disque lourde ou sensible dans GitHub.
 
