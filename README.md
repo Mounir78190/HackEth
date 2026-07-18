@@ -3,7 +3,7 @@
 [![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue)](https://www.kali.org/)
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-red)](#)
 [![HomeLab](https://img.shields.io/badge/HomeLab-pfSense-orange)](https://github.com/Mounir78190/HomeLab)
-[![Statut](https://img.shields.io/badge/statut-initialis%C3%A9-blue)](#)
+[![Statut](https://img.shields.io/badge/statut-%C3%A9cosyst%C3%A8me%20valid%C3%A9-green)](#)
 [![Version](https://img.shields.io/badge/version-0.2.1-blue)](VERSION)
 [![Licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
@@ -63,7 +63,7 @@ iVentoy est documenté comme composant de déploiement du HomeLab. Il peut servi
 | --- | --- | --- |
 | [HomeLab](https://github.com/Mounir78190/HomeLab) | Existant | Infrastructure réseau, VLAN, pfSense, WireGuard, CrowdSec |
 | HackEth | En cours | Dépôt vitrine du poste Kali et point d'entrée du sous-projet |
-| [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Validé sur Kali physique | Automatisation de la reconstruction du poste Kali |
+| [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap) | Validé sur Kali physique et VM Kali | Automatisation de la reconstruction du poste Kali |
 | [HackEth-Golden-Image](https://github.com/Mounir78190/HackEth-Golden-Image) | Validé sur poste physique | Documentation de sauvegarde/restauration Clonezilla |
 | [iVentoy](docs/iventoy.md) | Documenté | Boot réseau PXE pour lancer Kali, Clonezilla ou d'autres ISO du lab |
 
