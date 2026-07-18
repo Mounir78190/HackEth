@@ -142,13 +142,13 @@ Version actuelle : `0.2.1`
 
 ## Statut du projet
 
-Phase actuelle : écosystème initialisé avec Bootstrap et Golden Image validés sur poste physique.
+Phase actuelle : écosystème initialisé avec Golden Image validée sur poste physique et Bootstrap validé sur poste physique + VM Kali.
 
 Prochaines étapes :
 
 - Finaliser la documentation du dépôt HackEth.
 - Ajouter des captures anonymisées.
-- Tester HackEth-Bootstrap sur Kali VM.
+- Créer un snapshot VMware après validation HackEth-Bootstrap sur Kali VM.
 - Tester iVentoy avec une ISO Kali.
 - Ajouter les screenshots utiles dans les trois dépôts.
 - Rédiger ensuite une version anglaise traduite et corrigée.

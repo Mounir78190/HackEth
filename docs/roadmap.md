@@ -27,7 +27,7 @@ Statut : validé sur poste physique
 
 ## Phase 3 - HackEth-Bootstrap
 
-Statut : validé sur Kali physique
+Statut : validé sur Kali physique et VM Kali
 
 - Dépôt créé : [HackEth-Bootstrap](https://github.com/Mounir78190/HackEth-Bootstrap).
 - Script `bootstrap.sh` initialisé.
@@ -37,7 +37,10 @@ Statut : validé sur Kali physique
 - Wordlists intégrées dans la première version.
 - Dry-run validé sur Kali physique.
 - Installation réelle validée sur Kali physique.
-- À tester sur Kali VM.
+- Plan de test Kali VM rédigé dans HackEth-Bootstrap.
+- Dry-run validé sur Kali VM.
+- Installation réelle validée sur Kali VM.
+- Vérifications post-installation validées sur Kali VM.
 
 ## Phase 4 - Valorisation technique
 
